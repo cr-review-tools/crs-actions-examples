@@ -1,0 +1,46 @@
+name: CRs Workflows
+
+on:
+  pull_request:
+    branches:
+      - "**" # This will match pull requests targeting any branch
+
+permissions:
+  # Not all workflows demonstrated here require the same permissions. Some do
+  # not need the write permissions. However, GHA do not support specifying
+  # permissions settings at the granularity of the step, so you need to set the
+  # permissions to the union of all permissions required by all steps. Make sure
+  # in your workflows to set the permissions to the minimum strictly required by
+  # the workflows you use. Here we add more permissions in each PR depending on
+  # the requirements.
+  pull-requests: read
+
+jobs:
+  crs-workflows:
+    # The CRs Workflows only need to be run once so we choose ubuntu-latest.
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # All CRs workflows require the 'crs' tool, so you are going to need this
+      # no matter which workflow you use.
+
+      - name: Install crs
+        uses: mbarbin/crs-actions/setup-crs@v1.0.0-alpha.4
+        with:
+          crs-version: 0.0.20250626
+
+      # If you choose a workflow that requires `reviewdog`, you'll need to set
+      # it up too. The distribution includes an shared action for this:
+
+      # - name: Install reviewdog
+      #  uses: reviewdog/action-setup@v1
+
+      # Comment on CRs in PR
+      # requires: crs, reviewdog
+
+      # - name: Comment on CRs in PR
+      #  uses: mbarbin/crs-actions/comment-crs-in-pr@v1.0.0-alpha.4
+      #  with:
+      #    crs-config: .github/crs-config.json
