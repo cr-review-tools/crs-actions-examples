@@ -4,7 +4,8 @@ This repo was created for illustrative purposes only. It doesn't contain anythin
 
 ## Workflows in their respective PRs
 
-- TODO
+- `comment-crs-in-pr` : see [PR #1](cr-review-tools/crs-workflows-examples/pull/1)
+- More to come soon!
 
 ## Links & Resources
 
