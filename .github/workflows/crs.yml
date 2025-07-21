@@ -49,10 +49,10 @@ jobs:
       # Annotate CRs in PR
       # requires: crs
       #
-      # - name: Annotate CRs in PR
-      #   uses: mbarbin/crs-actions/annotate-crs-in-pr@v1.0.0-alpha.8
-      #   with:
-      #     crs-config: .github/crs-config.json
+      - name: Annotate CRs in PR
+        uses: mbarbin/crs-actions/annotate-crs-in-pr@v1.0.0-alpha.8
+        with:
+          crs-config: .github/crs-config.json
 
       # Create CRs PR Check
       # requires: crs, reviewdog
