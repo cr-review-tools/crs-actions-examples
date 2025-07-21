@@ -13,6 +13,7 @@ permissions:
   # in your workflows to set the permissions to the minimum strictly required by
   # the workflows you use. Here we add more permissions in each PR depending on
   # the requirements.
+  contents: read
   pull-requests: read
 
 jobs:
@@ -33,14 +34,22 @@ jobs:
 
       # If you choose a workflow that requires `reviewdog`, you'll need to set
       # it up too. The distribution includes an shared action for this:
-
+      #
       # - name: Install reviewdog
-      #  uses: reviewdog/action-setup@v1
+      #   uses: reviewdog/action-setup@v1
 
       # Comment on CRs in PR
       # requires: crs, reviewdog
-
+      #
       # - name: Comment on CRs in PR
-      #  uses: mbarbin/crs-actions/comment-crs-in-pr@v1.0.0-alpha.4
-      #  with:
-      #    crs-config: .github/crs-config.json
+      #   uses: mbarbin/crs-actions/comment-crs-in-pr@v1.0.0-alpha.4
+      #   with:
+      #     crs-config: .github/crs-config.json
+
+      # Annotate CRs in PR
+      # requires: crs
+      #
+      # - name: Annotate CRs in PR
+      #   uses: mbarbin/crs-actions/annotate-crs-in-pr@1de1e959424e6a8f68ffb9bc53f315d63546678b
+      #   with:
+      #     crs-config: .github/crs-config.json
