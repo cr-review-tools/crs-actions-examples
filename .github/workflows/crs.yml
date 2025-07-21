@@ -53,3 +53,11 @@ jobs:
       #   uses: mbarbin/crs-actions/annotate-crs-in-pr@1de1e959424e6a8f68ffb9bc53f315d63546678b
       #   with:
       #     crs-config: .github/crs-config.json
+
+      # Create CRs PR Check
+      # requires: crs, reviewdog
+      #
+      # - name: Create CRs PR Check
+      #   uses: mbarbin/crs-actions/create-crs-pr-check@ab55bd23e44c645b8f416d391ab2ebb2b67ce4e1
+      #   with
+      #     crs-config: .github/crs-config.json
