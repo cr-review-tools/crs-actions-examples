@@ -35,8 +35,8 @@ jobs:
       # If you choose a workflow that requires `reviewdog`, you'll need to set
       # it up too. The distribution includes an shared action for this:
       #
-      # - name: Install reviewdog
-      #   uses: reviewdog/action-setup@v1
+      - name: Install reviewdog
+        uses: reviewdog/action-setup@v1
 
       # Comment on CRs in PR
       # requires: crs, reviewdog
@@ -57,10 +57,10 @@ jobs:
       # Create CRs PR Check
       # requires: crs, reviewdog
       #
-      # - name: Create CRs PR Check
-      #   uses: mbarbin/crs-actions/create-crs-pr-check@v1.0.0-alpha.5
-      #   with:
-      #     crs-config: .github/crs-config.json
+      - name: Create CRs PR Check
+        uses: mbarbin/crs-actions/create-crs-pr-check@v1.0.0-alpha.5
+        with:
+          crs-config: .github/crs-config.json
 
       # Create CRs PR Job Summary
       # requires: crs
