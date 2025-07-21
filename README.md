@@ -5,6 +5,7 @@ This repo was created for illustrative purposes only. It doesn't contain anythin
 ## Workflows in their respective PRs
 
 - `comment-crs-in-pr` : see [PR #1](cr-review-tools/crs-workflows-examples/pull/1)
+- `annotate-crs-in-pr` : see [PR #2](cr-review-tools/crs-workflows-examples/pull/2)
 - More to come soon!
 
 ## Links & Resources
