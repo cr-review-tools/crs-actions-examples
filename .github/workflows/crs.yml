@@ -65,10 +65,10 @@ jobs:
       # Create CRs PR Job Summary
       # requires: crs
       #
-      # - name: Create CRs PR Job Summary
-      #   uses: mbarbin/crs-actions/create-crs-pr-job-summary@v1.0.0-alpha.8
-      #   with:
-      #     crs-config: .github/crs-config.json
+      - name: Create CRs PR Job Summary
+        uses: mbarbin/crs-actions/create-crs-pr-job-summary@v1.0.0-alpha.8
+        with:
+          crs-config: .github/crs-config.json
 
       # Summarize CRs in PR
       # requires: crs
