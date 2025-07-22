@@ -59,7 +59,7 @@ jobs:
       #
       # - name: Create CRs PR Check
       #   uses: mbarbin/crs-actions/create-crs-pr-check@ab55bd23e44c645b8f416d391ab2ebb2b67ce4e1
-      #   with
+      #   with:
       #     crs-config: .github/crs-config.json
 
       # Create CRs PR Job Summary
@@ -67,5 +67,5 @@ jobs:
       #
       # - name: Create CRs PR Job Summary
       #   uses: mbarbin/crs-actions/create-crs-pr-job-summary@9f67b9bb57fcf284e9aaed92a6307ac56ffe88f9
-      #   with
+      #   with:
       #     crs-config: .github/crs-config.json
