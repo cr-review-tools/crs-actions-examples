@@ -8,7 +8,7 @@ This repo was created for illustrative purposes only. It doesn't contain anythin
 - `annotate-crs-in-pr` : see [PR #2](https://github.com/cr-review-tools/crs-workflows-examples/pull/2)
 - `create-crs-pr-check` : see [PR #3](https://github.com/cr-review-tools/crs-workflows-examples/pull/3)
 - `create-crs-pr-job-summary` : see [PR #4](https://github.com/cr-review-tools/crs-workflows-examples/pull/4)
-- More to come soon!
+- `summarize-crs-in-pr`: see [PR #5](https://github.com/cr-review-tools/crs-workflows-examples/pull/5)
 
 ## Links & Resources
 
