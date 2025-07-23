@@ -8,11 +8,11 @@ There is no production code here — just example files and PRs designed to show
 
 Browse the following PRs to see each workflow in action:
 
-- **Comment CRs in PR**: [PR #1](https://github.com/cr-review-tools/crs-workflows-examples/pull/1)
-- **Annotate CRs in PR**: [PR #2](https://github.com/cr-review-tools/crs-workflows-examples/pull/2)
-- **Create CRs PR Check**: [PR #3](https://github.com/cr-review-tools/crs-workflows-examples/pull/3)
-- **Create CRs PR Job Summary**: [PR #4](https://github.com/cr-review-tools/crs-workflows-examples/pull/4)
-- **Summarize CRs in PR**: [PR #5](https://github.com/cr-review-tools/crs-workflows-examples/pull/5)
+- **Comment CRs in PR**: [PR #1](https://github.com/cr-review-tools/crs-actions-examples/pull/1)
+- **Annotate CRs in PR**: [PR #2](https://github.com/cr-review-tools/crs-actions-examples/pull/2)
+- **Create CRs PR Check**: [PR #3](https://github.com/cr-review-tools/crs-actions-examples/pull/3)
+- **Create CRs PR Job Summary**: [PR #4](https://github.com/cr-review-tools/crs-actions-examples/pull/4)
+- **Summarize CRs in PR**: [PR #5](https://github.com/cr-review-tools/crs-actions-examples/pull/5)
 
 ## Links & Resources
 
