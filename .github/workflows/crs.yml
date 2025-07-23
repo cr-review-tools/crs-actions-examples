@@ -30,7 +30,7 @@ jobs:
       - name: Install crs
         uses: cr-review-tools/crs-actions/setup-crs@v1.0.0-alpha.5
         with:
-          crs-version: 0.0.20250626
+          crs-version: 0.0.20250705
 
       # If you choose a workflow that requires `reviewdog`, you'll need to set
       # it up too. The distribution includes an shared action for this:
