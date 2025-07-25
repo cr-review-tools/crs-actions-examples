@@ -1,6 +1,6 @@
 # CRs Actions Examples
 
-This repository serves as a live demonstration of **CRs Workflows** using [GitHub reusable actions](https://github.com/mbarbin/crs-actions) from the `crs-actions` project. Its main purpose is to let users quickly browse real pull requests (PRs) where different CRs workflows are enabled, so you can preview exactly how code review comments, annotations, summaries, and checks appear in practice.
+This repository serves as a live demonstration of **CRs Workflows** using [GitHub reusable actions](https://github.com/mbarbin/crs-actions) from the `crs-actions` project. Its main purpose is to let users quickly browse real pull requests where different CRs workflows are enabled, so you can preview exactly how code review comments, annotations, summaries, and checks appear in practice.
 
 There is no production code here — just example files and PRs designed to showcase the workflows in action. This makes it easy for anyone to see the results of CRs workflows without setup or configuration.
 
