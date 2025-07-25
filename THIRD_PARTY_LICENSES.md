@@ -61,12 +61,12 @@ and the LGPL-3.0 Linking Exception along with this library. If not, see
 
 ---
 
-## cr-review-tools/crs-actions
+## mbarbin/crs-actions
 
-- Repository: https://github.com/cr-review-tools/crs-actions
+- Repository: https://github.com/mbarbin/crs-actions
 - License: MIT License
 
-See the [cr-review-tools/crs-actions license](https://github.com/cr-review-tools/crs-actions/blob/main/LICENSE) for full details.
+See the [mbarbin/crs-actions license](https://github.com/mbarbin/crs-actions/blob/main/LICENSE) for full details.
 
 ---
 
