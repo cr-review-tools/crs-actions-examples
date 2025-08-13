@@ -14,7 +14,7 @@ permissions:
   # the workflows you use. Here we add more permissions in each PR depending on
   # the requirements.
   contents: read
-  pull-requests: read
+  pull-requests: write
 
 jobs:
   crs-workflows:
@@ -73,10 +73,10 @@ jobs:
       # Summarize CRs in PR
       # requires: crs
       #
-      # - name: Summarize CRs in PR
-      #   uses: mbarbin/crs-actions/summarize-crs-in-pr@v1.0.0-alpha.8
-      #   with:
-      #     crs-config: .github/crs-config.json
+      - name: Summarize CRs in PR
+        uses: mbarbin/crs-actions/summarize-crs-in-pr@v1.0.0-alpha.8
+        with:
+          crs-config: .github/crs-config.json
 
       # etc.
       #
