@@ -28,9 +28,9 @@ jobs:
       # no matter which workflow you use.
 
       - name: Install crs
-        uses: mbarbin/crs-actions/setup-crs@v1.0.0-alpha.5
+        uses: mbarbin/crs-actions/setup-crs@v1.0.0-alpha.8
         with:
-          crs-version: 0.0.20250705
+          crs-version: 0.0.20250813
 
       # If you choose a workflow that requires `reviewdog`, you'll need to set
       # it up too. The distribution includes an shared action for this:
@@ -42,7 +42,7 @@ jobs:
       # requires: crs, reviewdog
       #
       # - name: Comment on CRs in PR
-      #   uses: mbarbin/crs-actions/comment-crs-in-pr@v1.0.0-alpha.5
+      #   uses: mbarbin/crs-actions/comment-crs-in-pr@v1.0.0-alpha.8
       #   with:
       #     crs-config: .github/crs-config.json
 
@@ -50,7 +50,7 @@ jobs:
       # requires: crs
       #
       # - name: Annotate CRs in PR
-      #   uses: mbarbin/crs-actions/annotate-crs-in-pr@v1.0.0-alpha.5
+      #   uses: mbarbin/crs-actions/annotate-crs-in-pr@v1.0.0-alpha.8
       #   with:
       #     crs-config: .github/crs-config.json
 
@@ -58,7 +58,7 @@ jobs:
       # requires: crs, reviewdog
       #
       # - name: Create CRs PR Check
-      #   uses: mbarbin/crs-actions/create-crs-pr-check@v1.0.0-alpha.5
+      #   uses: mbarbin/crs-actions/create-crs-pr-check@v1.0.0-alpha.8
       #   with:
       #     crs-config: .github/crs-config.json
 
@@ -66,7 +66,7 @@ jobs:
       # requires: crs
       #
       # - name: Create CRs PR Job Summary
-      #   uses: mbarbin/crs-actions/create-crs-pr-job-summary@v1.0.0-alpha.5
+      #   uses: mbarbin/crs-actions/create-crs-pr-job-summary@v1.0.0-alpha.8
       #   with:
       #     crs-config: .github/crs-config.json
 
@@ -74,6 +74,9 @@ jobs:
       # requires: crs
       #
       # - name: Summarize CRs in PR
-      #   uses: mbarbin/crs-actions/summarize-crs-in-pr@v1.0.0-alpha.5
+      #   uses: mbarbin/crs-actions/summarize-crs-in-pr@v1.0.0-alpha.8
       #   with:
       #     crs-config: .github/crs-config.json
+
+      # etc.
+      #
